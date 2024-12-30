@@ -1,0 +1,58 @@
+.todo-list {
+    border: 1px solid rgb(8, 8, 8);
+    margin: 50px;
+    height: 500px;
+    position: relative;
+    width: 600px;
+}
+
+.todo-input {
+    width: 300px;
+    height: 40px;
+    margin: 0px 30px;
+    background-color: rgb(198, 201, 201);
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.todo-button {
+    width: 100px;
+    height: 40px;
+    background-color: rgb(83, 78, 237);
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.todo-task-list {
+    margin: 30px;
+    display: flex;
+    border: 1px solid gainsboro;
+    width: 500px;
+    height: 30px;
+    justify-content:space-between;
+    border-radius: 10px;
+}
+.todo-list-items{
+    width: 300px;
+}
+
+.delete-task {
+    width: 80px;
+    height: 30px;
+    background-color: rgb(240, 65, 65);
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.complete-task {
+    width: 80px;
+    height: 30px;
+    background-color: rgb(44, 239, 10);
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
